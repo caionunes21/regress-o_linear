@@ -34,8 +34,8 @@ reg = smf.ols(formula = 'Vendas_Trimestrais ~ População_Estudantil',data = ven
 # (Variável Independente = População Estudantil)
 
 
-reg = reg.fit()                               # Realizamos a regressão e atribuímos o resultado à variável "REG".
-reg.summary()                                 # Gera um relatório do resultado da regressão.
+reg = reg.fit()                         # Realizamos a regressão e atribuímos o resultado à variável "REG".
+reg.summary()                           # Gera um relatório do resultado da regressão.
 
 
 
